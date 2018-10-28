@@ -124,14 +124,13 @@ class Predmet {
 public class Program {
 
     public static void main(String[] args) {
-        Predmet noviPredmet = new Predmet("Razvoj programskih rjeöenja", "RPR", 150);
-        Student noviStudent = new Student("Amila", "Lakovic", 11111);
+        Predmet noviPredmet = new Predmet("Razvoj programskih rjesenja", "RPR", 150);
+        Student noviStudent = new Student("Amila", "Lakovic", 18111);
         noviPredmet.upisi(noviStudent);
         noviPredmet.ispisStudenteNaPredmetu();
         noviPredmet.ispisani(noviStudent);
         noviPredmet.izbrisiPredmet();
         noviStudent.obrisiStudenta();
-
     }
 }
 
